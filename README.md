@@ -1,4 +1,4 @@
-# spring-2022-spacegame-vr
+# AstroQuest VR
 
 Whaddup astrogamers??
 
