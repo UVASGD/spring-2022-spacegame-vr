@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: bfdaadba007b28a4eba94a66b6115be5
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'RightUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: PlayerHand(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SK_EliteTrooper
+      parentName: PlayerHand(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Humanoid_ L Clavicle
+      parentName: PlayerHand(Clone)
+      position: {x: -0.0041839997, y: 0.000748, z: -0.001408}
+      rotation: {x: 0.52950424, y: -0.46864194, z: -0.52950424, w: -0.46864194}
+      scale: {x: 1, y: 1.0000085, z: 1.0000085}
+    - name: Humanoid_ L UpperArm
+      parentName: Humanoid_ L Clavicle
+      position: {x: -7.771561e-18, y: 0.12829353, z: -0.0000013453771}
+      rotation: {x: -0.55434495, y: 0.003110818, z: -0.016902635, w: 0.8321095}
+      scale: {x: 1.0000151, y: 0.99997574, z: 0.99999005}
+    - name: Humanoid_ L Forearm
+      parentName: Humanoid_ L UpperArm
+      position: {x: 0.000014468061, y: 0.28408793, z: -0.000009128828}
+      rotation: {x: 0.08229218, y: 0.006162699, z: -0.0869176, w: -0.9927917}
+      scale: {x: 1.0000452, y: 1.0000057, z: 1.0000035}
+    - name: Humanoid_ L ForearmTwist
+      parentName: Humanoid_ L Forearm
+      position: {x: 0.0000010763994, y: 0.093444444, z: -0.00000003282621}
+      rotation: {x: -0.000017657874, y: -0.31961167, z: 0.000024539415, w: -0.9475487}
+      scale: {x: 1.00003, y: 1.0000001, z: 0.99996287}
+    - name: Humanoid_ L Hand
+      parentName: Humanoid_ L Forearm
+      position: {x: 0.000003156905, y: 0.24656998, z: -0.000001969812}
+      rotation: {x: 0.3542168, y: -0.35513458, z: 0.19568087, w: 0.8426856}
+      scale: {x: 0.9999929, y: 0.9999767, z: 0.9999599}
+    - name: RefPosSkorp-IOLeft_Action
+      parentName: Humanoid_ L Hand
+      position: {x: -0.0019381694, y: 0.07695113, z: -0.023417408}
+      rotation: {x: 0.0146309165, y: 0.9727209, z: -0.14690393, w: -0.17893912}
+      scale: {x: 0.99997336, y: 1.0000067, z: 1.0000697}
+    - name: Humanoid_ L Finger2
+      parentName: Humanoid_ L Hand
+      position: {x: -0.003009059, y: 0.09760115, z: 0.011743761}
+      rotation: {x: -0.09115463, y: 0.09226225, z: -0.0073149055, w: 0.9915266}
+      scale: {x: 0.9999617, y: 1.0000279, z: 1.0000192}
+    - name: Humanoid_ L Finger21
+      parentName: Humanoid_ L Finger2
+      position: {x: 0.00000039471593, y: 0.03945097, z: 0.0000013639153}
+      rotation: {x: -0.11549172, y: 0.13175306, z: -0.014192112, w: 0.98442954}
+      scale: {x: 1.0000389, y: 0.999979, z: 0.999984}
+    - name: Humanoid_ L Finger22
+      parentName: Humanoid_ L Finger21
+      position: {x: 0.000000074697695, y: 0.03622919, z: -0.000002192262}
+      rotation: {x: -0.00001782924, y: -0.0562841, z: 0.000013130717, w: 0.9984148}
+      scale: {x: 1.0000389, y: 1.0000001, z: 1.0000261}
+    - name: Humanoid_ L Finger3
+      parentName: Humanoid_ L Hand
+      position: {x: 0.025064686, y: 0.09345883, z: 0.009705218}
+      rotation: {x: -0.054899972, y: 0.04868807, z: -0.071844116, w: 0.99471295}
+      scale: {x: 1.0000119, y: 1.0000155, z: 1.0000166}
+    - name: Humanoid_ L Finger31
+      parentName: Humanoid_ L Finger3
+      position: {x: -0.000002067778, y: 0.035123702, z: 0.0000011879401}
+      rotation: {x: -0.14386126, y: 0.13930775, z: -0.00657765, w: 0.9797214}
+      scale: {x: 0.99992925, y: 1.0000165, z: 1.0000017}
+    - name: Humanoid_ L Finger32
+      parentName: Humanoid_ L Finger31
+      position: {x: -0.0000013141253, y: 0.035124358, z: 0.00000018281717}
+      rotation: {x: 0.0000036507845, y: -0.07913996, z: -0.00000047590584, w: 0.99686354}
+      scale: {x: 1.0000405, y: 0.9999998, z: 0.99996424}
+    - name: Humanoid_ L Finger4
+      parentName: Humanoid_ L Hand
+      position: {x: 0.04452049, y: 0.088896796, z: -0.004310671}
+      rotation: {x: -0.11222446, y: 0.14018843, z: -0.16776654, w: 0.9693334}
+      scale: {x: 1.0000273, y: 1.0000403, z: 1.000014}
+    - name: Humanoid_ L Finger41
+      parentName: Humanoid_ L Finger4
+      position: {x: -0.0000001815908, y: 0.031729765, z: 0.00000018319149}
+      rotation: {x: -0.1153023, y: 0.07053679, z: -0.015956355, w: 0.99069434}
+      scale: {x: 0.9999879, y: 1.0000038, z: 0.99999803}
+    - name: Humanoid_ L Finger42
+      parentName: Humanoid_ L Finger41
+      position: {x: 0.0000005695907, y: 0.027643546, z: -0.0000005293987}
+      rotation: {x: -0.00000333786, y: -0.11848645, z: 0.000021161512, w: 0.99295574}
+      scale: {x: 0.99996895, y: 1.0000006, z: 1.000036}
+    - name: Humanoid_ L Finger0
+      parentName: Humanoid_ L Hand
+      position: {x: -0.03479614, y: 0.035453267, z: -0.008437303}
+      rotation: {x: 0.46106088, y: -0.8763123, z: 0.015569923, w: -0.13876997}
+      scale: {x: 0.99999356, y: 0.9999309, z: 0.9999799}
+    - name: Humanoid_ L Finger01
+      parentName: Humanoid_ L Finger0
+      position: {x: 0.000000030201686, y: 0.036829498, z: 0.00000017221772}
+      rotation: {x: 0.095439605, y: -0.3336894, z: 0.06665914, w: 0.93546736}
+      scale: {x: 1.0000579, y: 1.0000467, z: 1.0000343}
+    - name: Humanoid_ L Finger02
+      parentName: Humanoid_ L Finger01
+      position: {x: 0.0000008549669, y: 0.033632394, z: -0.00000002509976}
+      rotation: {x: -0.0000050365925, y: 0.04536435, z: -0.0000058710575, w: 0.9989705}
+      scale: {x: 0.9999765, y: 1.0000002, z: 1.0000238}
+    - name: Humanoid_ L Finger1
+      parentName: Humanoid_ L Hand
+      position: {x: -0.02986048, y: 0.09352634, z: 0.0147201205}
+      rotation: {x: -0.07178046, y: 0.080401696, z: 0.054838486, w: 0.992661}
+      scale: {x: 0.9999487, y: 0.99996537, z: 1.000002}
+    - name: Humanoid_ L Finger11
+      parentName: Humanoid_ L Finger1
+      position: {x: 0.00000052782855, y: 0.035453543, z: 0.0000006450487}
+      rotation: {x: -0.115246765, y: 0.1619594, z: -0.016072048, w: 0.97991276}
+      scale: {x: 1.0000151, y: 1.0000722, z: 1.000012}
+    - name: Humanoid_ L Finger12
+      parentName: Humanoid_ L Finger11
+      position: {x: -0.0000020658094, y: 0.03545096, z: -0.000002961005}
+      rotation: {x: -0.00005014985, y: -0.048473038, z: 0.000046744004, w: 0.99882454}
+      scale: {x: 1.0000063, y: 1.0000002, z: 1.0000349}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Humanoid_ L Clavicle
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
