@@ -86,8 +86,8 @@ public class Hand : MonoBehaviour
         Vector3 positionWithOffset = _followTarget.TransformPoint(positionOffset);
         float distance = Vector3.Distance(positionWithOffset, IKTip.transform.position);
 
-        //_body.velocity = (positionWithOffset - IKTip.transform.position).normalized * (followSpeed * distance);
-        IKTip.transform.position = positionOffset;
+        _body.velocity = (positionWithOffset - IKTip.transform.position).normalized * (followSpeed * distance);
+        //IKTip.transform.position = positionOffset;
         
        
         // update rotation
