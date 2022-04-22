@@ -19,7 +19,13 @@ public class KeyBoardShoot : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButton(0)) {
-            Debug.Log("Pressed left click, shooting!");
+            Debug.Log("Pressed left click, shooting primary weapon!");
+            anim.ResetTrigger("Walk");
+            anim.ResetTrigger("Stop");
+            anim.SetTrigger("Shoot");
+        }
+        if (Input.GetMouseButton(1)) {
+            Debug.Log("Pressed right click, shooting secondary weapon!");
             anim.ResetTrigger("Walk");
             anim.ResetTrigger("Stop");
             anim.SetTrigger("Shoot");
