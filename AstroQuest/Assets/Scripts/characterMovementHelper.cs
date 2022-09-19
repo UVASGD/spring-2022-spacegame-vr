@@ -8,6 +8,7 @@ public class characterMovementHelper : MonoBehaviour
 {
     private XROrigin XROrigin;
     private CapsuleCollider capsuleCollider;
+    private 
     [SerializeField] Transform PlayerRoot;
 
     private CharacterControllerDriver driver;

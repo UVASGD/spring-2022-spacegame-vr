@@ -9,7 +9,7 @@ public class HandController : MonoBehaviour
 
     public Hand hand;
     private ActionBasedController controller;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +19,7 @@ public class HandController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         hand.SetGrip(controller.selectAction.action.ReadValue<float>());
         hand.SetTrigger(controller.activateAction.action.ReadValue<float>());
     }
