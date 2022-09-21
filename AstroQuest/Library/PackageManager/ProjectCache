@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637991286540000000
-    m_Hash: 2292592783
+      ticks: 637991514020000000
+    m_Hash: 3034041408
   m_LockFileStatus:
     m_FilePath: F:/GameDev/spring-2022-spacegame-vr/AstroQuest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637991286540000000
-    m_Hash: 4255235207
+      ticks: 637991514020000000
+    m_Hash: 486446922
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -985,12 +985,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.xr.interaction.toolkit@2.0.2
+- packageId: com.unity.xr.interaction.toolkit@2.1.1
   testable: 0
   isDirectDependency: 1
-  version: 2.0.2
+  version: 2.1.1
   source: 1
-  resolvedPath: F:\GameDev\spring-2022-spacegame-vr\AstroQuest\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2
+  resolvedPath: F:\GameDev\spring-2022-spacegame-vr\AstroQuest\Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.1
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -1041,7 +1041,7 @@ m_ResolvedPackages:
     verified: 2.0.3
   dependencies:
   - name: com.unity.inputsystem
-    version: 1.2.0
+    version: 1.3.0
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.xr.core-utils
@@ -1097,13 +1097,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637874566830000000
+  datePublishedTicks: 637958910620000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
-    revision: de6c9c113846c3ca4449d0285a4683bb9c87855e
+    revision: b72ad6beca34bf12828097cb8f003a5168375678
     path: 
   unityLifecycle:
     version: 2.0.2

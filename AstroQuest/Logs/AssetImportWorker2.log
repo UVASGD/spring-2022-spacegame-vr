@@ -1,0 +1,277 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16227 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+F:/GameDev/spring-2022-spacegame-vr/AstroQuest
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60978
+Successfully changed project path to: F:/GameDev/spring-2022-spacegame-vr/AstroQuest
+F:/GameDev/spring-2022-spacegame-vr/AstroQuest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 87.17 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.35 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GameDev/spring-2022-spacegame-vr/AstroQuest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 with Max-Q Design (ID=0x1ba1)
+    Vendor:   NVIDIA
+    VRAM:     8082 MB
+    Driver:   30.0.15.1277
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010225 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 75.00 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (674ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (477ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (109ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008372 seconds.
+Android Extension - Scanning For ADB Devices 4472 ms
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 98.57 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in F:\GameDev\spring-2022-spacegame-vr\AstroQuest\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\GameDev\spring-2022-spacegame-vr\AstroQuest\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <99feab6f3db6407493924fe4a179a95b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7399ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (7083ms)
+			LoadAssemblies (4193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (821ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1921ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (619ms)
+				ProcessInitializeOnLoadMethodAttributes (1021ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4488 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (71.9 MB). Loaded Objects now: 5056.
+Memory consumption went from 278.5 MB to 206.6 MB.
+Total: 7.151700 ms (FindLiveObjects: 0.389400 ms CreateObjectMapping: 0.278600 ms MarkObjects: 6.168400 ms  DeleteObjects: 0.314600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 168671.393305 seconds.
+  path: Assets/Presets/AudioStreaming.preset
+  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1e371fefea4b1e15d981332026fdb2') in 0.063826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Asteroids Pack/Assets/Prefabs/Asteroid 1.prefab
+  artifactKey: Guid(fa49e460baf435b4780da7196c2ab473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Asteroids Pack/Assets/Prefabs/Asteroid 1.prefab using Guid(fa49e460baf435b4780da7196c2ab473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937245c5089ff9dc1efba059532911d6') in 0.950943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Polarith/AI/Examples/Prefabs/Lab3D/Agent Wander.prefab
+  artifactKey: Guid(5b48aef6548bd79489ef5b1c7843cc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polarith/AI/Examples/Prefabs/Lab3D/Agent Wander.prefab using Guid(5b48aef6548bd79489ef5b1c7843cc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaee3ef4ce52f3445a7631a5c703fd3') in 0.046426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Polarith/AI/Examples/Prefabs/Game/Buildings/Building 2.prefab
+  artifactKey: Guid(e48d33d522901884c95ef3128a3434a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polarith/AI/Examples/Prefabs/Game/Buildings/Building 2.prefab using Guid(e48d33d522901884c95ef3128a3434a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdaa396048b909bf3573e25492b4023') in 0.117217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polarith/AI/Examples/Prefabs/Lab/Agent FleeNavMesh.prefab
+  artifactKey: Guid(c8388daed51aba745a781ced657d3b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polarith/AI/Examples/Prefabs/Lab/Agent FleeNavMesh.prefab using Guid(c8388daed51aba745a781ced657d3b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00db13a25a69318b22c99fe596bbabd') in 0.034569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Polarith/AI/Examples/Prefabs/Game/Buildings/Building 4.prefab
+  artifactKey: Guid(4942a2eb0af7d4d48838a4f8049f73d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polarith/AI/Examples/Prefabs/Game/Buildings/Building 4.prefab using Guid(4942a2eb0af7d4d48838a4f8049f73d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17b49b388e04917e4f5d1b8f5955026') in 0.092544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Impact Interaction System/Demo/Prefabs/Decals/Bullet Wood Decal.prefab
+  artifactKey: Guid(29598cd2394b2b24096e6e12e0a8e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Impact Interaction System/Demo/Prefabs/Decals/Bullet Wood Decal.prefab using Guid(29598cd2394b2b24096e6e12e0a8e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ec145b7171b664a8f3f55cba37518e') in 0.011828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polarith/AI/Examples/Prefabs/Lab2D/Agent2D Arrive.prefab
+  artifactKey: Guid(654ccfd474e1f5a46be17c9b1e1f07b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polarith/AI/Examples/Prefabs/Lab2D/Agent2D Arrive.prefab using Guid(654ccfd474e1f5a46be17c9b1e1f07b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914731670b09f2b40c742943be6ca28f') in 0.026068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Impact Interaction System/Demo/Prefabs/Button.prefab
+  artifactKey: Guid(b20890dbfafa27448a3037d9500488ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Impact Interaction System/Demo/Prefabs/Button.prefab using Guid(b20890dbfafa27448a3037d9500488ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480ff92f730ec199cb7f58b39d5891d7') in 0.344953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asteroid Field Creator/Demo/Demo Prefabs/Cube.prefab
+  artifactKey: Guid(655d79da6330bf24d83f62afe8fd7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asteroid Field Creator/Demo/Demo Prefabs/Cube.prefab using Guid(655d79da6330bf24d83f62afe8fd7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08b9eabaa83b1d4163648689271dc6d') in 0.401343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Impact Interaction System/Demo/Prefabs/Particles/Bullet Wood Particles.prefab
+  artifactKey: Guid(4f3f6f6a5f60cfe4896d9bfa2dec08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Impact Interaction System/Demo/Prefabs/Particles/Bullet Wood Particles.prefab using Guid(4f3f6f6a5f60cfe4896d9bfa2dec08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495478752a15c7190207bddf0b195e6a') in 0.131906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polarith/AI/Examples/Prefabs/Game3D/Agent Copter.prefab
+  artifactKey: Guid(e35cb459e04d4c34ba35c1c10c67fa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polarith/AI/Examples/Prefabs/Game3D/Agent Copter.prefab using Guid(e35cb459e04d4c34ba35c1c10c67fa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caff58c330fe74a9f4b5b39c4cea6bca') in 0.079579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdc0fb39c457851df02591676086962') in 0.220934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Polarith/AI/Examples/Prefabs/Game/Vehicles/AI PriorityRoad.prefab
+  artifactKey: Guid(db15b8fba04aed247a7b95cb344c0896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polarith/AI/Examples/Prefabs/Game/Vehicles/AI PriorityRoad.prefab using Guid(db15b8fba04aed247a7b95cb344c0896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230822d2cd83928765b730a99f354794') in 0.016442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polarith/AI/Examples/Prefabs/Lab2D/Agent2D Follow.prefab
+  artifactKey: Guid(7e91d1baeebedfe49b57c0c225d09ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polarith/AI/Examples/Prefabs/Lab2D/Agent2D Follow.prefab using Guid(7e91d1baeebedfe49b57c0c225d09ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1815da84781414d6d2f0b858859c171') in 0.026291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polarith/AI/Examples/Prefabs/Lab2D/Agent2D PlanarConvolution.prefab
+  artifactKey: Guid(84873248a6642a94c8f03074babff8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polarith/AI/Examples/Prefabs/Lab2D/Agent2D PlanarConvolution.prefab using Guid(84873248a6642a94c8f03074babff8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea16452bb18c24536d8dbc91863ab21') in 0.027019 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -8,21 +8,22 @@ public class characterMovementHelper : MonoBehaviour
 {
     private XROrigin XROrigin;
     private CapsuleCollider capsuleCollider;
-    private 
     [SerializeField] Transform PlayerRoot;
 
     private CharacterControllerDriver driver;
 
-    void Start(){
+    void Start()
+    {
         XROrigin = GetComponent<XROrigin>();
         capsuleCollider = GetComponentInChildren<CapsuleCollider>();
         driver = GetComponent<CharacterControllerDriver>();
     }
 
-    void Update(){
+    void Update()
+    {
         UpdateCharacterController();
     }
-        /// <summary>
+    /// <summary>
     /// Updates the <see cref="CharacterController.height"/> and <see cref="CharacterController.center"/>
     /// based on the camera's position.
     /// </summary>
@@ -32,7 +33,7 @@ public class characterMovementHelper : MonoBehaviour
         if (XROrigin == null || capsuleCollider == null)
             return;
 
-        var height = Mathf.Clamp(XROrigin.CameraInOriginSpaceHeight, driver.minHeight, driver.maxHeight);
+        var height = Mathf.Clamp(XROrigin.CameraInOriginSpaceHeight, 0, 3);
 
         Vector3 center = XROrigin.CameraInOriginSpacePos;
         center.y = height / 2f;
@@ -41,12 +42,12 @@ public class characterMovementHelper : MonoBehaviour
         capsuleCollider.center = center;
 
         // update PlayerRoot (arms)
-        
+
         center.y = height;
         var rotation = XROrigin.Camera.transform.rotation;
 
         PlayerRoot.transform.localPosition = center;
-        PlayerRoot.transform.localRotation= rotation;
+        PlayerRoot.transform.localRotation = rotation;
 
     }
 
