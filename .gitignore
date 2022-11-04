@@ -4,8 +4,8 @@
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 /[Aa]rtifacts/
-[Ll]ibrary/
-[Aa]rtifactDB/
+/[Ll]ibrary/
+/[Aa]rtifactDB/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
